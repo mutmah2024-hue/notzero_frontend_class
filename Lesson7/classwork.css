@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  height: 30px;
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin: 20px;
+}
+.ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+.sidebar {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card1 {
+  background-color: rgba(0, 0, 255, 0.195);
+  margin: 10px;
+  display: grid;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card2 {
+  background-color: rgba(0, 128, 0, 0.282);
+  margin: 10px;
+  display: grid;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card3 {
+  background-color: rgba(255, 0, 0, 0.271);
+  margin: 10px;
+  display: grid;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card4 {
+  background-color: rgba(255, 115, 0, 0.321);
+  margin: 10px;
+  display: grid;
+  padding: 20px;
+  border-radius: 10px;
+}
+.first1 {
+  background-color: blue;
+  height: 70px;
+  border-radius: 10px;
+}
+.first2 {
+  background-color: green;
+  height: 70px;
+  border-radius: 10px;
+}
+.first3 {
+  background-color: red;
+  height: 70px;
+  border-radius: 10px;
+}
+.first4 {
+  background-color: rgb(255, 128, 0);
+  height: 70px;
+  border-radius: 10px;
+}
+button {
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content{
+    display: flex;
+    flex-direction: column;
+  }
+}
